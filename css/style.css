@@ -1,0 +1,42 @@
+.calculator {
+  width: 172px;
+  padding: 8px;
+  border-radius: 10px;
+  border: 6px solid #756f75;
+  font: helvetica
+}
+
+.display {
+  height: 50px;
+  padding: 6px;
+  border: 1px solid #756f75;
+  border-radius: 4px;
+  text-align: right;
+  overflow: hidden;
+}
+
+.row {
+  padding-top: 5px;
+}
+
+.row.double div {
+  padding-bottom: 4px;  
+}
+
+button {
+  width: 40px;
+  height: 30px;
+  padding: 2px;
+}
+
+button.tall {
+  height: 70px;
+}
+
+button.wide {
+  width: 84px;
+}
+
+.right {
+  float: right;
+}
